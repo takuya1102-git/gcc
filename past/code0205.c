@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main(void)
+{
+    const int TAX = 110;
+    int fax = 50000;
+
+    printf("50000â~Ç©ÇÁ40000â~Ç…ílâ∫Ç∞ÇµÇ‹Ç∑ÅB\n");
+
+    fax = 40000;
+
+    printf("FAXêVâøäi(ê≈çûÇ›)ÅF%dâ~\n", fax * TAX /100);
+
+    return 0;
+}
